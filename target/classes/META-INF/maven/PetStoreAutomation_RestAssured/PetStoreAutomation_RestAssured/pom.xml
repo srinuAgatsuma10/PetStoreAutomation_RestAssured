@@ -5,6 +5,37 @@
 	<groupId>PetStoreAutomation_RestAssured</groupId>
 	<artifactId>PetStoreAutomation_RestAssured</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+<build>
+    <pluginManagement>
+    
+  		<plugins>
+  
+  			  <plugin>
+			       <groupId>org.apache.maven.plugins</groupId>
+			       <artifactId>maven-surefire-plugin</artifactId>
+			       <version>3.2.2</version>
+			        <configuration>
+		          	<suiteXmlFiles>
+		          	      		 <suiteXmlFile>Master.xml</suiteXmlFile>
+		          	</suiteXmlFiles>
+		          
+		          </configuration>
+			   </plugin>
+        
+		 	 <plugin>
+		          <groupId>org.apache.maven.plugins</groupId>
+		          <artifactId>maven-compiler-plugin</artifactId>
+		          <version>3.11.0</version>
+		      </plugin>
+        
+        
+  		</plugins>
+  
+ 	 </pluginManagement>
+ </build>
+
+
 
 	<dependencies>
 

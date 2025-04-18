@@ -9,6 +9,8 @@ import api.endpoints.UserEndPoints2;
 import api.payload.User;
 import io.restassured.response.Response;
 
+//Note : This second class is used for routes.properties file Approach.
+
 public class UserTests2 {
 
 	Faker faker;

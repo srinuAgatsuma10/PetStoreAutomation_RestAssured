@@ -9,7 +9,7 @@ import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-// Note : This second file is used for routes.properties file Approach.
+// Note : This second class is used for routes.properties file Approach.
 
 //UserEndPints.java
 //Created for perform Create, Read, Update, Delete [CRUD] requests t the user API.
